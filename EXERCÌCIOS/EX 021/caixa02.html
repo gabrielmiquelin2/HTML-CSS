@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        h1{
+            box-shadow: 8px 8px 8px 8px blue
+        }
+        header{
+            background-color:white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow:  5px 3px 7px 1px rgba(231, 4, 4);
+        }
+
+    nav > a {
+        text-decoration: none;
+        color:white;
+        font-weight: bold;
+        margin-right: 30px;
+
+    }
+    nav > a:hover {
+        text-decoration: underline;
+    }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 30px 40px 50px;
+            box-shadow:  40px 40px 40px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(165, 165, 165);
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: yellow;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+    </nav>
+    </header>
+    <main>
+<section id="assuntos"></section>
+<p>Esportes Políticas e Tecnologia</p>
+
+<section id="notícias">
+    <h2>Notícias sobre o Brasil</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+         Ipsa obcaecati tempore ea iusto reiciendis quam,
+          at reprehenderit repudiandae, nisi earum, 
+          esse omnis sit voluptate rerum sequi dolores 
+          pariatur dignissimos quod?</p>
+          <aside>
+              <p>Artigo escrito por Gabriel Ferreira</p>
+          </aside>
+</section>
+    </main>
+<footer>
+    <p>Desenvolvido por Mim</p>
+</footer>     
+    <div id="bola"></div>
+
+    
+</body>
+</html>
